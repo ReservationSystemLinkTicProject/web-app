@@ -60,7 +60,7 @@ El proyecto estará disponible en http://localhost:5173 por defecto.
 
 vite.config.js: Configuración de Vite.
 
-#Scripts Disponibles
+# Scripts Disponibles
 
 npm run dev: Inicia el servidor de desarrollo.
 npm run build: Construye la aplicación para producción.
