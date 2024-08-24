@@ -14,8 +14,7 @@ Clonar el Repositorio
 Abre una terminal y ejecuta el siguiente comando para clonar el repositorio:
 
 ```
-git clone https://github.com/tu-usuario/tu-repositorio.git
-Reemplaza https://github.com/tu-usuario/tu-repositorio.git con la URL de tu repositorio.
+git clone https://github.com/ReservationSystemLinkTicProject/web-app.git
 ```
 Navegar al Directorio del Proyecto
 
