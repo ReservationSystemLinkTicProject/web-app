@@ -48,19 +48,20 @@ yarn dev
 ```
 El proyecto estará disponible en http://localhost:5173 por defecto.
 
-Estructura del Proyecto
-src/: Contiene el código fuente del proyecto.
-modules/: contine los modules que se crearon para la solucion
-assets/: Archivos estáticos como imágenes y estilos.
-components/: Componentes de Vue.
-views/: Vistas principales del proyecto.
-App.vue: Componente raíz de la aplicación.
-main.js: Punto de entrada de la aplicación.
-public/: Archivos públicos que se sirven directamente.
+# Estructura del Proyecto
+* src/: Contiene el código fuente del proyecto.
+* modules/: contine los modules que se crearon para la solucion
+* assets/: Archivos estáticos como imágenes y estilos.
+* components/: Componentes de Vue.
+* views/: Vistas principales del proyecto.
+* App.vue: Componente raíz de la aplicación.
+* main.js: Punto de entrada de la aplicación.
+* public/: Archivos públicos que se sirven directamente.
 
 vite.config.js: Configuración de Vite.
 
-Scripts Disponibles
+#Scripts Disponibles
+
 npm run dev: Inicia el servidor de desarrollo.
 npm run build: Construye la aplicación para producción.
 npm run preview: Previsualiza la aplicación construida.
