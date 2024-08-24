@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+      "baseUrl": ".",                // Base para resolver rutas no relativas.
+      "paths": {
+        "@/*": ["src/*"]            // Alias @ que apunta a la carpeta src.
+      },
+      "target": "ESNext",            // Target para la salida JavaScript.
+      "module": "ESNext",            // Módulo de salida.
+      "moduleResolution": "Node",    // Resolución de módulos.
+      "allowSyntheticDefaultImports": true, // Permite imports por defecto de módulos CommonJS.
+      "esModuleInterop": true,       // Interop entre módulos ES y CommonJS.
+      "strict": true,                // Habilita el modo estricto.
+      "jsx": "preserve"              // Conserva JSX en archivos .jsx.
+    },
+    "include": ["src/**/*.js", "src/**/*.vue"], // Incluir archivos JavaScript y Vue en la carpeta src.
+    "exclude": ["node_modules", "dist"] // Excluir node_modules y dist.
+  }
+  
